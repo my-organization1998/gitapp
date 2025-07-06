@@ -18,4 +18,4 @@ jobs:
           with:
             azure-devops-project-url: https://dev.azure.com/mayankbhatwadekar98/AgileProject
             azure-pipeline-name: 'webapp'
-            azure-devops-token: ${{ SECRETS_AZURE_DEVOPS_TOKEN }}
+            azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
